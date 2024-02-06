@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projet personnel</title>
+  </head>
+  <style>
+    nav .sections li {
+      display: inline-block;
+      padding-right: 20px;
+    }
+    html {
+      background-color: black;
+    }
+    body {
+      background-color: #6a994e;
+    }
+
+    .tableau_de_bord {
+      text-align: center;
+    }
+    .cadre_1 {
+      background-color: #f2e3cf;
+      border-radius: 20px;
+      border: none;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.457);
+      cursor: pointer;
+    }
+    .titre {
+      color: black;
+      font-size: 30px;
+      height: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .mini-titre {
+      list-style: none;
+      text-decoration: none;
+      color: #606c36;
+      font-size: 25px;
+      font-style: bold;
+    }
+    .mini-titre:hover {
+      text-decoration: underline;
+      opacity: 0.7;
+    }
+    .cadre_2 {
+      background-color: #6a994e;
+      color: black;
+      border-color: black;
+      border-style: solid;
+      border-width: 2;
+      border-left: none;
+      border-right: none;
+    }
+    .intro {
+      display: inline-block;
+      width: 600px;
+      font-size: 21px;
+      font-family: "Times New Roman";
+      font-style: italic;
+      color: black;
+      text-decoration: none;
+    }
+    .introduction {
+      text-align: center;
+    }
+    .ici {
+      text-decoration: underline;
+    }
+    .question {
+      text-align: center;
+      font-style: italic;
+    }
+    .photos {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .jeu_1 {
+      background-color: #6a994e;
+      border-radius: 20px;
+      border-color: #f2e3cf;
+      border-style: solid;
+      border-width: 5px;
+      border-style: dashed;
+      width: 900px;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+    .réponse {
+      display: block;
+      width: 200px;
+      text-align: left;
+      font-size: 21px;
+      font-family: "Times New Roman", Times, serif;
+      text-decoration: none;
+      color: black;
+    }
+    .GTA {
+      display: none;
+      text-decoration: none;
+      color: black;
+    }
+    .réponse:hover .GTA {
+      display: block;
+      color: black;
+    }
+    .gta_2 {
+      display: inline-block;
+    }
+    .gta {
+      width: 350px;
+      display: inline-block;
+      transition: 1s;
+    }
+    .gta:hover {
+      transform: translateX(80%);
+    }
+    .SONIC {
+      display: none;
+    }
+    .réponse:hover .SONIC {
+      display: block;
+    }
+    .sonic_2 {
+      display: inline-block;
+    }
+    .sonic {
+      width: 350px;
+      display: inline-block;
+      transition: 1s;
+    }
+    .sonic:hover {
+      transform: translateX(80%);
+    }
+    .ZELDA {
+      display: none;
+    }
+    .réponse:hover .ZELDA {
+      display: block;
+    }
+    .zelda_2 {
+      display: inline-block;
+    }
+    .zelda {
+      width: 350px;
+      display: inline-block;
+      transition: 1s;
+    }
+    .zelda:hover {
+      transform: translateX(80%);
+    }
+    .mini-source {
+      text-decoration: none;
+      color: #606c36;
+      font-size: 15px;
+      font-style: bold;
+    }
+    .fin {
+      display: inline block;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <nav class="tableau_de_bord">
+      <button class="cadre_1">
+        <ul class="sections">
+          <li>
+            <h1 class="titre">&#9734; Projet personnel</h1>
+          </li>
+          <li>
+            <a class="mini-titre" href="tennis for two.html">
+              &#183;Tennis for two</a
+            >
+          </li>
+          <li>
+            <a class="mini-titre" href="gameboy.html"> &#183; Game Boy</a>
+          </li>
+          <li>
+            <a class="mini-titre" href="rpg.html"> &#183; RPG</a>
+          </li>
+        </ul>
+      </button>
+    </nav>
+    <main>
+      <nav class="introduction">
+        <button class="cadre_2">
+          <p class="intro">
+            Qu’est ce que sont les jeux vidéo pour vous? Un passe temps, une
+            passion, un sujet obscure que vous aimeriez plonger votre orteil
+            dedans ou une perte de temps. Cette invention est présente depuis
+            plus de 70 ans et représente l'industrie qui grandit de plus en plus
+            depuis ces dernières années et est l’une des plus fructueuse sur le
+            marché.Apprenez en davantage <em class="ici">ici</em> sur le monde
+            des jeux vidéo.
+          </p>
+        </button>
+        <nav class="photos"></nav>
+        <h3 class="question">Reconnaissez-vous ces jeux?</h3>
+        <nav>
+          <button class="jeu_1">
+            <div class="réponse">
+              &#9733; Réponse:
+              <div class="GTA">Grand Theft auto</div>
+            </div>
+            <div class="gta_2">
+              <img class="gta" src="photos/gta.PNG" />
+            </div>
+          </button>
+        </nav>
+        <nav>
+          <button class="jeu_1">
+            <div class="réponse">
+              &#9733; Réponse:
+              <div class="SONIC">Sonic</div>
+            </div>
+            <div class="sonic_2">
+              <img class="sonic" src="photos/sonic.PNG" />
+            </div>
+          </button>
+        </nav>
+        <nav>
+          <button class="jeu_1">
+            <div class="réponse">
+              &#9733; Réponse:
+              <div class="ZELDA">La Légende de Zelda</div>
+            </div>
+            <div class="zelda_2">
+              <img class="zelda" src="photos/zelda.PNG" />
+            </div>
+          </button>
+        </nav>
+      </nav>
+    </main>
+    <footer>
+      <nav class="fin">
+        <p>
+          fait par Harlise Sénophat
+          <a class="mini-source" href="source.html"> &#183; Sources</a>
+        </p>
+      </nav>
+    </footer>
+  </body>
+</html>
